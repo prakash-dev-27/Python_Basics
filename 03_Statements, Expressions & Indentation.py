@@ -199,3 +199,10 @@ elif marks >= 50:
 
 else:
     print("Fail")
+
+
+Statement            	Indentation    	Meaning
+for i in range(3):	    0 spaces	    Starts loop
+print("Start")	        4 spaces	    Inside loop
+print(i)        	    4 spaces	    Inside loop
+print("Done")        	0 spaces	    Outside loop
